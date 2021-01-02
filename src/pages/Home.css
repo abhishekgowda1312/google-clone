@@ -36,6 +36,17 @@
   cursor: pointer;
   transform: scale(1.05);
   background-color: rgba(60, 64, 67, 0.08);
-  -webkit-border-radius: 20%;
+  -webkit-border-radius: 50%;
   border-radius: 50%;
+}
+
+.home__body {
+  flex: 1;
+  display: flex;
+  margin-top: 10%;
+  flex-direction: column;
+}
+.home__body > img {
+  object-fit: contain;
+  height: 100px;
 }
