@@ -18,14 +18,14 @@ function Home() {
                     {/* icon */}
                     <AppsIcon className="home__appsicon" />
                     {/* avatar */}
-                    <Avatar >AR</Avatar>
+                    <Avatar>AR</Avatar>
                 </div>
             </div>
             <div className="home__body">
 
                 <img
                     src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-                    alt="Google"
+                    alt="Google icon"
                 />
                 <div className="home__inputContainer">
                     <Search />
@@ -33,7 +33,22 @@ function Home() {
 
             </div>
             <div className="home__footer">
-
+                <div className="home__footerUpper">
+                    <span>India</span>
+                </div>
+                <div className="home__footerLower">
+                    <div className="home__footerLowerLeft">
+                        <Link to="/About">About</Link>
+                        <Link to="/Advertising">Advertising</Link>
+                        <Link to="/Business">Business</Link>
+                        <Link to="/HowSearchWorks">How Search Works</Link>
+                    </div>
+                    <div className="home__footerLowerRight">
+                        <Link to="/Privacy">Privacy</Link>
+                        <Link to="/Terms">Terms</Link>
+                        <Link to="/Settings">Settings</Link>
+                    </div>
+                </div>
             </div>
         </div>
     )

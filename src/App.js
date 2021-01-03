@@ -7,6 +7,7 @@ import {
   Route,
 
 } from "react-router-dom";
+import SearchPage from './pages/SearchPage';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Switch>
           <Route path="/search">
             {/* //?search (search results page)*/}
-            <h1>this is the search page</h1>
+            <SearchPage />
           </Route>
           <Route path="/">
             {/* //?home (the one with the search button)*/}
