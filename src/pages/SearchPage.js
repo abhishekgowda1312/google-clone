@@ -17,7 +17,7 @@ import DetailsIcon from '@material-ui/icons/Details';
 
 
 function SearchPage() {
-    const [{ term }, dispatch] = useStateValue()
+    const [{ term }, ] = useStateValue()
     const { data } = useGoogleSearch(term) //? Live API call
     // const data = Response
 
